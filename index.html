@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Single page layout using HTML 5</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script 
+    src="https://code.jquery.com/jquery-3.4.1.js"></script>
+ 
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <aside>
+    <nav>
+        <img src="images/people1.jpg" alt="">
+        <a href="#home"><i class="material-icons md-36">home</i>
+        <p>Home</p>
+        </a>
+  
+
+        <a href="#about"><i class="material-icons md-36">person</i>
+        <p>About</p>
+        </a>
+
+        <a href="#folio"><i class="material-icons md-36">image</i>
+        <p>folio</p>
+        </a>
+
+        <a href="#contact"><i class="material-icons md-36">mail</i>
+        <p>contact</p>
+        </a>
+
+    </nav>
+    </aside>
+        <nav class="mobile-nav">
+
+        <a href="#home">home</a>
+        <a href="#about">About</a>
+        <a href="#folio">folio</a>
+        <a href="#contact">contact</a>
+    </nav>
+    
+    <main>
+        <header class="home" id="home"> <br><br>
+        <h1>I am Harsha Sadalagi</h1>
+        <h5>Web designer</h5>
+       
+        <img src="images/Screenshot (102).png" alt="";
+       
+        </header>
+    </main>
+
+    <section class="about" id="about">
+        <h2> About me</h2>
+        <p>
+            <span>Hello, I am Harsha </span> 
+            <a href="index1.html">project</a>
+            I am Web designer
+           
+            to work for an organization that provides an ample
+            opportunity to improve my technical skill and
+            knowledge for the benefit of the company.   
+            A bit abot me, I like to do painting,crafts,gardening and all th e creative things.      
+        </p>
+
+        <p>
+            I have experienced with Html-5,css-3 and have some knowledge about javascript,java,c,data structure,dbms
+        </p>
+
+        <h3>My skills</h3>
+        <p>HTML 5</p>
+        <div class="container">
+            <div class="skills html">65%</div>
+         
+        </div>  
+
+        <p>css-3</p>
+        <div class="container">
+            <div class="skills css">55%</div>
+        </div>  
+    
+    </section>
+    
+    <section class="folio" id ="folio">
+        <h2>folio</h2>
+
+        <div class="row-halves">
+            <div class="col">
+                <img src="images/responsive-websites-for-small-business.png" alt="">
+                <h3>Business</h3>
+                <p>
+                    Creating responsive and thoughtful sites for small and medium business.
+                </p> 
+            </div>
+            <div class="col">
+                <img src="images/responsive-websites-for-small-business.png" alt="">
+                <h3>mobile</h3>
+                <p>
+                    After some few days I will learn responsive and mobile ready designs and implementations. 
+                </p> 
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>contact</h2>
+        <div class="container">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email">
+        <label for="message">message</label>
+        <textarea name="message" id="message"
+    style="height:200px"></textarea>
+        <input type="submit" value="message">
+               </form>
+        </div>
+    </section>
+    <footer>
+        <section class="top-bar">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter-f"></i></a>
+            <a href=""><i class="fab fa-linkedin-f"></i></a>
+
+        </section>
+        <section class="bottom-bar">
+            <p>&copy 2018 | all rights are reserved </p>    </section>
+    </footer>
+
+</body>
+</html>
