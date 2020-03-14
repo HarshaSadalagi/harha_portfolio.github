@@ -1,0 +1,74 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: rgba(119, 115, 115, 0.582);
+    background-image: url(images1/GreenLeavesinTheRain590300.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+header{
+   
+    
+    height: 118px;
+    text-align:center ;
+}
+img{
+   
+    height: 120px;
+    width: 120px;
+    color: brown;
+
+}
+    
+     
+nav{
+    background-color: #67c7c29a;
+      height: 5px;
+      padding-top: 14px;
+      padding-bottom: 16px;
+      text-align: center;
+}main{
+        height: 400px;
+        text-align: center;
+        padding-top: 150px;
+        padding-left:200px;
+        padding-right: 200px;
+}footer{
+    background-color: rgba(135, 175, 135, 0.699);
+   
+    height: 100px;
+}
+h1{
+    color: honeydew;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    color:white;
+    font-family: fantasy;
+}
+
+a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 15px;
+  
+}
+nav a{
+    
+        color: white;
+        
+        text-decoration: none;
+        font-size: 20px;
+        font-family: unset;
+    
+}
+
